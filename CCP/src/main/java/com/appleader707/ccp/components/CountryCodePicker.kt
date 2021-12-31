@@ -56,7 +56,7 @@ class CountryCodePicker {
                             id = getFlagMasterResID(
                                 isPickCountry.countryCode
                             )
-                        ), contentDescription = null
+                        ), contentDescription = null,
                     )
                     if (!isOnlyFlagShow) {
                         Text(

@@ -57,7 +57,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.appleader707'
-                artifactId = 'CountryCodePickerJetpackCompose'
+                artifactId = 'country-code-picker-compose'
                 version = '1.0'
             }
         }
