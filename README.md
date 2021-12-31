@@ -35,9 +35,9 @@ Step 2. Add the dependency
      
 <h2>Preview</h2>
 
-![This is an image preview](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image preview](https://github.com/appleader707/country-code-picker-compose/blob/master/images/preview1.jpg)
 
-![This is an image preview](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image preview](https://github.com/appleader707/country-code-picker-compose/blob/master/images/preview2.jpg)
 
 
 
