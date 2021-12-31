@@ -109,7 +109,6 @@ fun getFlagMasterResID(countryName: String): Int {
         "hu" -> R.drawable.flag_hungary
         "id" -> R.drawable.flag_indonesia
         "ie" -> R.drawable.flag_ireland
-        "il" -> R.drawable.flag_israel
         "im" -> R.drawable.flag_isleof_man // custom
         "is" -> R.drawable.flag_iceland
         "in" -> R.drawable.flag_india
@@ -362,7 +361,6 @@ internal fun getFlagEmoji(countryName: String): String {
         "hu" -> "🇭🇺"
         "id" -> "🇮🇩"
         "ie" -> "🇮🇪"
-        "il" -> "🇮🇱"
         "im" -> "🇮🇲"
         "in" -> "🇮🇳"
         "io" -> "🇮🇴"
@@ -612,7 +610,6 @@ fun getListCountries(): List<CountryCode> {
     countries.add(CountryCode("hu", "+36", "Hungary"))
     countries.add(CountryCode("id", "+62", "Indonesia"))
     countries.add(CountryCode("ie", "+353", "Ireland"))
-    countries.add(CountryCode("il", "+972", "Israel"))
     countries.add(CountryCode("im", "+44", "Isle Of Man"))
     countries.add(CountryCode("is", "+354", "Iceland"))
     countries.add(CountryCode("in", "+91", "India"))

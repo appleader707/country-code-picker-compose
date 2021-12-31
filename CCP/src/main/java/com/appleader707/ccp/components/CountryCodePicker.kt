@@ -27,16 +27,6 @@ import com.appleader707.ccp.utils.getFlagMasterResID
 import com.appleader707.ccp.utils.getListCountries
 
 class CountryCodePicker {
-
-    @Preview
-    @Composable
-    private fun PreviewCountryCodeDialog() {
-        CountryCodeDialog(
-            pickedCountry = {},
-            defaultSelectedCountry = getListCountries().single { it.countryCode == "us" },
-        )
-    }
-
     @Composable
     fun CountryCodeDialog(
         modifier: Modifier = Modifier,
@@ -70,7 +60,7 @@ class CountryCodePicker {
                     )
                     if (!isOnlyFlagShow) {
                         Text(
-                            "${isPickCountry.countryPhoneCode} ${isPickCountry.countryCode}",
+                            isPickCountry.countryName,
                             Modifier.padding(horizontal = 18.dp)
                         )
                     }
