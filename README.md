@@ -18,7 +18,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.appleader707:country-code-picker-compose:Tag'
+	        implementation 'com.github.appleader707:country-code-picker-compose:1.0'
 	}
   
 <h2>How to use ?</h2>
